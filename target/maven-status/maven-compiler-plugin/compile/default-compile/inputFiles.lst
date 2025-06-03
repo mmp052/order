@@ -3,5 +3,8 @@
 /home/mateus/humberto/order/src/main/java/store/order/OrderController.java
 /home/mateus/humberto/order/src/main/java/store/order/OrderIn.java
 /home/mateus/humberto/order/src/main/java/store/order/OrderOut.java
+<<<<<<< HEAD
 /home/mateus/humberto/order/src/main/java/store/order/ProductOut.java
+=======
+>>>>>>> 05617e86b425008bb8e013015cccbdcc343b44ab
 /home/mateus/humberto/order/src/main/java/store/order/ProductRef.java
