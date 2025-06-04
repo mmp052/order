@@ -2,6 +2,7 @@ package store.order;
 
 import lombok.Builder;
 import lombok.experimental.Accessors;
+import java.io.Serializable; 
 
 @Builder @Accessors(fluent = true)
 public record ProductOut(
@@ -9,5 +10,5 @@ public record ProductOut(
         String name,
         Double price,
         String unit
-) {
+) implements Serializable {
 }

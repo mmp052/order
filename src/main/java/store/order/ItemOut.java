@@ -4,6 +4,7 @@ package store.order;
 import lombok.Builder;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable; // Importação adicionada
 import java.time.LocalDateTime;
 
 @Builder
@@ -15,5 +16,5 @@ public record ItemOut(
         Double total
 
 
-) {
+) implements Serializable { 
 }
